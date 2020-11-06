@@ -1,0 +1,635 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.bgimage{
+	background-image: url('images/modern-building.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(255,255,255);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 15px;
+	float: left;
+}
+.leftmenu h1 {
+	padding-left: 70px;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 25px;
+	letter-spacing: 2px;
+}
+.leftmenu p{
+	padding-left: 70px;
+	font-weight: gray;
+	color: black;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+.rightmenu{
+	width: 75%;
+	line-height: 100px;
+	float: right;
+
+}
+.rightmenu ul{
+	margin-left: 50px;
+
+
+
+}
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 10px;
+	color: black;
+	font-weight: normal;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+.text{
+	width:100%; 
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white; 
+
+}
+.text h1{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin: 20px 100px;
+	word-spacing: 20px;
+	letter-spacing: 10px;
+
+
+
+}
+
+.text h4{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px 100px;
+
+}
+
+#buttontwo{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 55px;
+	width: 220px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid white;
+	
+
+}
+#buttonone{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+
+
+}
+.contact{
+	padding-right: 20px;
+}
+
+#firstlist{
+	color: red;
+}
+
+.rightmenu ul li:hover{
+	color: red;
+}
+
+#buttonone{
+	color: black;
+}
+.rightmenu ul button:hover{
+	color: red;
+
+}
+#buttontwo{
+	color: black;
+}
+.text button:hover{
+	color: red;
+
+}
+
+.contact li button :hover{
+	color: black;
+	}
+
+.about{
+	
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 2;
+    margin-left: 2.5em;
+    width:50px;
+    height: 100vh;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+
+}	
+.about img{
+	font-size: 1em;
+    font-weight: 200;
+    line-height: 2;
+    margin-left: 2s.5em;
+    width:500px;
+    height: 100vh;
+   text-align: center;
+   padding: 200px 50px;
+}
+.experience{
+	position: absolute;
+    display: inline-block;
+    padding-top: 80px 80px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    left: 25%;
+    top: 170%;
+    width: 13%;
+    height: 20%;
+
+
+
+}
+.sub{
+	    color: #c9c9c9;
+	 letter-spacing: 3px;
+    
+}
+.system{
+	    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #131313;
+    
+}
+.system p {
+	line-height: 1.5;
+	margin-left: 10em;
+}
+
+.system li{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px; 
+	margin-left: 10em;
+}
+
+
+
+.section{
+	 font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-right: 1em;
+    margin-left: 7.5em;
+    text-align: start;
+    padding: 200px 50px;
+    height: 200vh;
+       
+   
+}
+
+
+#bold{
+	border: none;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	border: 1px solid white;
+}
+
+#buttonthree{
+
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+.center{
+	font-size: 1.3rem;
+    font-weight: 10;
+    line-height: 2;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 400px 10px;
+    
+    
+}
+
+.circular{
+	display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    background-color: rgb(255, 255, 255);
+    margin-left: 2.5em;
+    text-align: start;
+
+}
+
+
+.section1{
+	width: 25%;
+	line-height: 25px;
+	float: left;
+	 padding: 100px 10px;
+
+}
+.section1 h3{
+	 padding: 50px 10px;
+	 margin-left: 2em;
+	  font-family: 'Playfair Display', serif;
+}
+.section1 p{
+	 padding: 0px 10px;
+	 margin-left: 2em;
+	 color: gray;
+	 font-family: 'Playfair Display', serif;
+	 margin-bottom: 0;
+    
+    font-weight: 400;
+    color: #808080;
+}
+.section2{
+	width: 25%;
+	line-height: 25px;
+	float: left;
+	 padding: 100px 10px;
+
+}
+.section2 h3{
+	padding: 50px 10px;
+	 margin-left: 2em;
+	  font-family: 'Playfair Display', serif;
+
+}
+.section2 p{
+	padding: 0px 10px;
+	 margin-left: 2em;
+	 color: gray;
+	 font-family: 'Playfair Display', serif;
+	 margin-bottom: 0;
+    
+    font-weight: 400;
+    color: #808080;
+
+}
+
+.section3{
+	width: 25%;
+	line-height: 25px;
+	float: left;
+	 padding: 100px 10px;
+
+}
+.section3 h3{
+	padding: 50px 10px;
+	 margin-left: 2em;
+	  font-family: 'Playfair Display', serif;
+}
+
+.section3 p{
+	padding: 0px 10px;
+	 margin-left: 2em;
+	 color: gray;
+    font-weight: 300;
+    color: #808080;
+
+
+}
+
+.view{
+	font-size: 1.3rem;
+    font-weight: 10;
+    line-height: 2;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 300px 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.project h5{
+
+	    color: #c9c9c9;
+	    
+
+}
+.project{
+	float: left;
+	padding: 100px 50px;
+}
+.project, .system h6 h5 img{
+	float: left;
+	margin-left: 1em;
+
+}
+.view2{
+	 font-size: 1rem;
+    font-weight: 200;
+    line-height: 3;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    
+    margin-top: 12em;
+    padding: 150px 20px;
+   
+
+}
+#buttonfour{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+	
+}
+.view2 p{
+	line-height: 1.5;
+	margin-left: 12em;
+}
+
+.view2 h3{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px; 
+	margin-left: 12em;
+}
+.sub1{
+	 color: #c9c9c9;
+	 letter-spacing: 5px;
+}
+.model{
+	font-size: 1rem;
+    font-weight: 10;
+    line-height: -300;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: -3000px -1000px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    
+}
+.file{
+	font-size: 1rem;
+    font-weight: 100;
+    line-height: 3;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 1px 1px;
+    
+}
+.file p{
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 1em;
+}
+
+.file h3{
+	font-size: 2rem;
+	font-weight: 100px; 
+	text-align: left;
+	margin-top: 6em;
+}
+.sub2{
+	 color: #c9c9c9;
+	 letter-spacing: 5px;
+	 text-align: left;
+}
+#buttonfive{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+	margin-left: 1em;
+	margin-right: 75em;
+
+	
+}
+.tower{
+	float: right;
+	margin-left: -50em;
+	margin-right: 3em;
+	   
+}
+.pic img{
+	float: left;
+	margin-left: 1em;
+}
+.design{
+	font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    margin-left: 12em;
+    margin-top: 1em;
+    padding: 150px 20px;
+
+}
+.design p{
+	line-height: 1.5;
+	text-align: left;
+	padding-top: 15px;
+	margin-left:35em;
+}
+
+.design h3{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px; 
+	margin-left: 16.5em;
+	padding: 30px;
+}
+.super{
+	color: #c9c9c9;
+	 letter-spacing: 5px;
+	 margin-left: 9.5em;
+	 padding: 20px;
+}
+#buttonsix{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+	margin-left: 15em;
+	margin-right: 1em;
+}
+
+
+
+.learn{
+	width:100%; 
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white; 
+	padding: 10px 10px;
+
+}
+.learn h4{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin: 20px 100px;
+	word-spacing: 20px;
+	
+}
+
+.learn h6{
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	margin: 50px 100px;
+	text-align: center;
+
+}
+.bgimage1{
+	background-image: url('images/modern-building.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 80vh;
+}
+.bgimage1 img{
+	width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 550px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.tab img{
+	float: left;
+	 padding: 200px 70px;
+}
+.sms{
+	padding: 200px 10px;
+}
+.sub3{
+	color: #c9c9c9;
+	 letter-spacing: 5px;
+	 padding: 30px;
+	 margin-left: -1em;
+}
+.sms h1{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600px;
+	padding: 30px;
+}
+.inputbox{
+	width: 40%;
+	height: 55px;
+	display: block;
+	margin: auto;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	padding: 20px;
+	justify-content: space-between;
+
+}
+.form{
+	padding-top: 70px;
+	margin-left: -2.5em;
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: gray;
+}
+.inputbox1{
+	width: 40%;
+	height: 120px;
+	display: block;
+	margin: auto;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+#buttonseven{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid black;
+	padding-left: 10px;
+	margin-left: 1em;
+	margin-right: 15em;
+}
